@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 30 23:00:24 2019
-
-@author: Dark Deathscyther
-"""
-"""wdir='C:/Users/Dark Deathscyther'"""
 num=int(input())
 su=0
 if (num<5):
