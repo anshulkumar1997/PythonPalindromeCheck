@@ -10,6 +10,7 @@ else:
            rev+=temp%10
            temp=temp//10
        return rev
+   reve=reverse(num)
    if reve==num :
       print(num,' is Palindrome')
    else:
