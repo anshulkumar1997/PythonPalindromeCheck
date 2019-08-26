@@ -1,8 +1,6 @@
 num=int(input())
-su=0
-if (num<5):
-   su=num+num
-   print(su)
+if (num<10):
+   print('Palindrome is ',num)
 else:
    def reverse(num):
        temp=num
@@ -12,16 +10,9 @@ else:
            rev+=temp%10
            temp=temp//10
        return rev
-
-   reve=reverse(num)
-   su=reve+num 
-   reve=reverse(su)
-   if reve==su :
-      print('Palindrome is ',su)
+   if reve==num :
+      print(num,' is Palindrome')
    else:
-      while reve!=su :
-         su=reve+su
-         reve=reverse(su)
-      print ('Palindrome is',su)
+      print(num,' is Not Palindrome')
          
    
